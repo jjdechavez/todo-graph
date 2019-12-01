@@ -1,0 +1,24 @@
+{
+  "name": "simple-todo-list-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/techmakerph/simple-todo-list-graph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/techmakerph/simple-todo-list-graph/issues"
+  },
+  "homepage": "https://gitlab.com/techmakerph/simple-todo-list-graph#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.10"
+  }
+}
