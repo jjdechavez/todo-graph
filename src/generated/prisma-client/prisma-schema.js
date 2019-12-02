@@ -102,8 +102,6 @@ input TodoSubscriptionWhereInput {
   updatedFields_contains_some: [String!]
   node: TodoWhereInput
   AND: [TodoSubscriptionWhereInput!]
-  OR: [TodoSubscriptionWhereInput!]
-  NOT: [TodoSubscriptionWhereInput!]
 }
 
 input TodoUpdateInput {
@@ -148,8 +146,6 @@ input TodoWhereInput {
   done: Boolean
   done_not: Boolean
   AND: [TodoWhereInput!]
-  OR: [TodoWhereInput!]
-  NOT: [TodoWhereInput!]
 }
 
 input TodoWhereUniqueInput {

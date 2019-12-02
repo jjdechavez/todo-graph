@@ -147,8 +147,6 @@ export interface TodoWhereInput {
   done?: Maybe<Boolean>;
   done_not?: Maybe<Boolean>;
   AND?: Maybe<TodoWhereInput[] | TodoWhereInput>;
-  OR?: Maybe<TodoWhereInput[] | TodoWhereInput>;
-  NOT?: Maybe<TodoWhereInput[] | TodoWhereInput>;
 }
 
 export interface TodoCreateInput {
@@ -174,8 +172,6 @@ export interface TodoSubscriptionWhereInput {
   updatedFields_contains_some?: Maybe<String[] | String>;
   node?: Maybe<TodoWhereInput>;
   AND?: Maybe<TodoSubscriptionWhereInput[] | TodoSubscriptionWhereInput>;
-  OR?: Maybe<TodoSubscriptionWhereInput[] | TodoSubscriptionWhereInput>;
-  NOT?: Maybe<TodoSubscriptionWhereInput[] | TodoSubscriptionWhereInput>;
 }
 
 export interface NodeNode {
