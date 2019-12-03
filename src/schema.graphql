@@ -1,11 +1,12 @@
 type Query {
   test: String!
   todos: [Todo!]!
+  todo(id: ID!): Todo
 }
 
 type Mutation {
   newTodo(text: String!): Todo!
-  doneTodo(id: ID!): Todo!
+doneTodo(id: ID!, done: Boolean ): Todo!
 }
 
 type Todo {
