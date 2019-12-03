@@ -2,11 +2,11 @@ function todos (parent, args, context, info) {
   return context.prisma.todoes();
 }
 
-function test (parent, args, context, info) {
-  return `test`
+function todo(parent, args, context, info) {
+  return context.prisma.todo({ id: args.id })
 }
 
 module.exports = {
   todos,
-  test
+  todo
 }
