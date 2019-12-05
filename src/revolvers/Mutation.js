@@ -20,8 +20,13 @@ async function updateText(parent, args, context, info) {
   return updateTextTodo;
 }
 
+async function deleteTodo(parent, args, context, info) {
+  return await context.prisma.deleteTodo({...args});
+}
+
 module.exports = {
   newTodo,
   doneTodo,
-  updateText
+  updateText,
+  deleteTodo
 }

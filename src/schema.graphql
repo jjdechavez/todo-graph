@@ -7,6 +7,7 @@ type Mutation {
   newTodo(text: String!): Todo!
   doneTodo(id: ID!, done: Boolean): Todo!
   updateText(id: ID!, text: String!): Todo!
+  deleteTodo(id: ID!): Todo!
 }
 
 type Todo {
